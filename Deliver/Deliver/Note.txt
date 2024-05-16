@@ -1,0 +1,15 @@
+Face regonition and attendance for multiple faces from Image
+-------------------------------------------------------------------------------------
+
+Implementation Details
+--------------------------------
+1. Add student number
+2. For added number train the face
+3. Train Dataset is stored as image in dataSet folder and ID, Name is stored in Dataset(sqlite)
+4. You can train for multiple faces with ID
+5. Now click on Trainer to train the System/algorithm for face detection
+6. Click Detection button, Now webcam will on and take the image
+7. The lively take image is given as input for detection 
+8. ALL Name from database is written to excel sheet
+9. Only who is present in the image is given/updated as "Present" in attendance in excel sheet for the current date
+10. If executed for next date, then attendance will be updated for next date also
